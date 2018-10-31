@@ -27,7 +27,7 @@ pipeline {
         stage('Deploy to Staging') {
             steps {
                 echo "Deploy to Staging Started... "
-                bat "C:/Program Files (x86)/Jenkins/workspace/MyPipelineAsCodeJob/JenkinsShell.bat"
+                bat "./JenkinsShell.bat"
             }
         }
     }
